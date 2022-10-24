@@ -1,0 +1,109 @@
+
+.jfx-button {
+     -jfx-button-type: RAISED;
+     -fx-background-color: #312B2B;
+     -fx-text-fill: white;
+}
+
+.jfx-decorator-title {
+		-fx-font-size: 16;
+}
+
+.scroll-bar:vertical > .track-background, .scroll-bar:horizontal > .track-background {
+    -fx-background-color: #F1F1F1;
+    -fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical > .thumb, .scroll-bar:horizontal > .thumb {
+    -fx-background-color: #BCBCBC;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 1.0;
+}
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button {
+    -fx-padding: 5 2 5 2;
+}
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button, .scroll-bar:hover > .increment-button, .scroll-bar:hover > .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar > .increment-button > .increment-arrow, .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(150.0, 150.0, 150.0);
+}
+
+.scroll-bar > .increment-button > .increment-arrow {
+    -fx-shape: "M298 426h428l-214 214z";
+}
+
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-shape: "M298 598l214-214 214 214h-428z";
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Scroll Pane			                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+
+.main-button .jfx-rippler{
+    -jfx-rippler-fill: rgba(255,255,255, 1);
+}
+
+.main-button {
+    -fx-pref-width: 60px;
+    -fx-background-color: #0F9D58;
+    -fx-background-radius: 60px;
+    -fx-pref-height: 60px;
+    -fx-min-width: -fx-pref-width;
+    -fx-max-width: -fx-pref-width;
+    -fx-min-height: -fx-pref-height;
+    -fx-max-height: -fx-pref-height;
+    -jfx-button-type: RAISED;
+}
+
+.game-cancel .jfx-rippler{
+    -jfx-rippler-fill: rgba(255,255,255, 1);
+}
+
+.game-cancel {
+    -fx-pref-width: 40px;
+    -fx-background-color: #0F9D58;
+    -fx-background-radius: 40px;
+    -fx-pref-height: 40px;
+    -fx-min-width: -fx-pref-width;
+    -fx-max-width: -fx-pref-width;
+    -fx-min-height: -fx-pref-height;
+    -fx-max-height: -fx-pref-height;
+    -jfx-button-type: RAISED;
+}
+
+.game-resatrt .jfx-rippler{
+    -jfx-rippler-fill: rgba(255,255,255, 1);
+}
+
+.game-restart {
+    -fx-pref-width: 40px;
+    -fx-background-color: #03A9F4;
+    -fx-background-radius: 40px;
+    -fx-pref-height: 40px;
+    -fx-min-width: -fx-pref-width;
+    -fx-max-width: -fx-pref-width;
+    -fx-min-height: -fx-pref-height;
+    -fx-max-height: -fx-pref-height;
+    -jfx-button-type: RAISED;
+}
+

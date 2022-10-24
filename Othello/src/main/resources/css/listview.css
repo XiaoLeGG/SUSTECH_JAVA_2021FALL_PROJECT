@@ -1,0 +1,111 @@
+/* The main scrollbar **track** CSS class  */
+.mylistview .scroll-bar:horizontal .track,
+.mylistview .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.mylistview .scroll-bar:horizontal .increment-button,
+.mylistview .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 0;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+
+.mylistview .scroll-bar:vertical .increment-button,
+.mylistview .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 10 0 0;
+
+}
+
+.option-list-view {
+    -fx-pref-width: 160.0px;
+    -fx-background-color: WHITE;
+}
+
+.option-jfx-list-view-icon {
+    -fx-fill: #5264AE;
+    -fx-padding: 0.0 10.0 0.0 5.0;
+    -fx-cursor: hand;
+}
+
+.jfx-list-view {
+    -fx-background-insets: 0;
+    -jfx-cell-horizontal-margin: 0.0;
+    -jfx-cell-vertical-margin: 5.0;
+    -jfx-vertical-gap: 10;
+    -jfx-expanded: false;
+    -fx-pref-width: 200;
+}
+
+.mylistview .scroll-bar .increment-arrow,
+.mylistview .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.mylistview .scroll-bar:horizontal .thumb,
+.mylistview .scroll-bar:vertical .thumb {
+    -fx-background-color: derive(black, 90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.jfx-list-cell-container {
+    -fx-alignment: center-left;
+}
+
+.jfx-list-cell-container > .label {
+    -fx-text-fill: WHITE;
+}
+
+.jfx-list-cell:odd:selected > .jfx-rippler > StackPane, .jfx-list-cell:even:selected > .jfx-rippler > StackPane {
+    -fx-background-color: #312B2B;
+    -fx-text-fill: WHITE;
+    -fx-font-color: WHITE;
+}
+
+.jfx-list-cell {
+    -fx-background-insets: 0.0;
+    -fx-text-fill: WHITE;
+}
+
+.jfx-list-cell:selected > HBox > Label {
+    -fx-text-fill: WHITE;
+}
+
+.jfx-list-cell:odd, .jfx-list-cell:even {
+    -fx-background-color: WHITE;
+}
+
+.jfx-list-cell:filled:hover {
+    -fx-background-color: rgba(0,0,0, 0.3);
+}
+
+.jfx-list-cell .jfx-rippler {
+    -jfx-rippler-fill: white;
+}
+
+.main-button {
+    -fx-pref-width: 60px;
+    -fx-background-color: #0F9D58;
+    -fx-background-radius: 60px;
+    -fx-pref-height: 60px;
+    -fx-min-width: -fx-pref-width;
+    -fx-max-width: -fx-pref-width;
+    -fx-min-height: -fx-pref-height;
+    -fx-max-height: -fx-pref-height;
+    -jfx-button-type: RAISED;
+}
+
+.main-button .jfx-rippler{
+    -jfx-rippler-fill: rgba(255,255,255, 1);
+}
